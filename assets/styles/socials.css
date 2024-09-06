@@ -1,0 +1,40 @@
+.socials__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+
+    & a {
+        text-decoration: none;
+        color: #FFF
+    }
+}
+
+.socials__item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    height: 60px;
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #50655d88;
+    border-radius: 10px;
+    transition: all 0.5s;
+
+    &:hover {
+        background: #50655d;
+        transform: scale(1.1);
+    }
+    
+    & .icon {
+        font-size: 40px;
+    }
+
+    & .socials__message {
+        font-size: 18px;
+        font-weight: 200;
+    }
+}

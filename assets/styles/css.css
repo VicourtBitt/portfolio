@@ -1,0 +1,26 @@
+@import url('./sidebar.css');
+@import url('./content.css');
+@import url('./slider.css');
+@import url('./socials.css');
+@import url('./biography.css');
+@import url('./stack.css');
+@import url('./contact.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0px;
+}
+
+body {
+    background: #0B0D0F;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: grid;
+    height: 1800px;
+    grid-template-columns: 240px 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 'sidebar content';
+    scroll-behavior: smooth;
+}

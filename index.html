@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type='text/css' href="./assets/styles/css.css">
+        <link rel="icon" type="favicon/text" href="./assets/icon/favicon.ico">
+
+        <script src="https://kit.fontawesome.com/b493036c5c.js" crossorigin="anonymous"></script>
+        
+        <title>VicourtBitt – Portfólio</title>
+    </head>
+
+    <body>
+        <aside class="sidebar__navigation">
+            <nav class="sidebar__container">
+                <ul class="sidebar__list">
+                    <li class="sidebar_item">
+                        <a href="#stackSection" class="sidebar__link">Estudos</a>
+                        <i class="fa-solid fa-note-sticky" style="color: #ffffff;"></i>
+                    </li>
+
+                    <li class="sidebar_item">
+                        <a href="#projectSlider" class="sidebar__link">Projetos</a>
+                        <i class="fa-solid fa-hammer" style="color: #ffffff;"></i>
+                    </li>
+
+                    <li class="sidebar_item">
+                        <a href="#biographySection" class="sidebar__link">Biografia</a>
+                        <i class="fa-solid fa-address-book" style="color: #ffffff;"></i>
+                    </li>
+
+                    <li class="sidebar_item">
+                        <a href="#contactMeSection" class="sidebar__link">Contato</a>
+                        <i class="fa-solid fa-square-phone" style="color: #ffffff;"></i>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="sidebar__author">
+                <h6 class="author__name">Victor Bittencourt</h6>
+                <p class="author__role">Developer</p>
+            </div>
+        </aside>
+
+        <main class="content__container">
+            <section class="main__container">
+
+                <section class="socials__container">
+                    <a href="https://github.com/VicourtBitt">
+                        <div class="socials__item">
+                            <i class="fa-brands fa-github icon" style="color: #ffffff;"></i>
+                            <h6 class="socials__message">Acesse o meu GitHub</h6>
+                        </div>
+                    </a>
+    
+                    <a href="https://www.youtube.com/@VicourtBittProjects">
+                        <div class="socials__item">
+                            <i class="fa-brands fa-square-youtube icon" style="color: #ffffff;"></i>
+                            <h6 class="socials__message">Acesse o meu canal</h6>
+                        </div>
+                    </a>
+                </section>
+
+                <section class="slider__container" id="projectSlider">
+                    <a href="https://github.com/ProjetoPROZ-Grupo3/EE-Jobs-Strapless">
+                        <div class="slider__item">
+                            <img src="./assets/slider/ee_jobs.png" alt="Imagem 1" class="slider__image">
+                        </div>
+                    </a>
+
+                    <a href="https://www.linkedin.com/posts/vicourtbitt_dale-activity-7234756615315353601-5MVf?utm_source=share&utm_medium=member_desktop">
+                        <div class="slider__item">
+                            <img src="./assets/slider/aceitacao_caldeira.png" alt="Imagem 2" class="slider__image">
+                        </div>
+                    </a>
+
+                    <a href="https://github.com/VicourtBitt/comunidade_parada_tech">
+                        <div class="slider__item">
+                            <img src="./assets/slider/ptc_python.png" alt="Imagem 3" class="slider__image">
+                        </div>
+                    </a>
+
+                    <button id="previousImage" class="slider__button">
+                        <i class="fa-solid fa-arrow-left"></i>
+                    </button>
+                    
+                    <button id="nextImage" class="slider__button">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </section>
+
+                <section class="biography__container" id="biographySection">  
+                    <h1 class="biography__title">Quem sou eu?</h1>
+                    <div class="biography__content">
+                        <img class="biography__photo" src="./assets/images/photo.png">
+                        <p class="biography__paragraph" id="biographyText">
+                            <!-- O texto presente aqui é renderizado pelo Javascript -->
+                        </p>
+                    </div>
+                </section>
+                    
+                <section class="stack__container" id="stackSection">
+                    <h1 class="stack__title">Atual Stack</h1>
+                    <div class="infinite__slider">
+                        <div class="item">
+                            <a>
+                                <img class="item__image" src="" alt="">
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <a>
+                                <img class="item__image" src="" alt="">
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <a>
+                                <img class="item__image" src="" alt="">
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <a>
+                                <img class="item__image" src="" alt="">
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <a>
+                                <img class="item__image" src="" alt="">
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <a>
+                                <img class="item__image" src="" alt="">
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <a>
+                                <img class="item__image" src="" alt="">
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <a>
+                                <img class="item__image" src="" alt="">
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <a>
+                                <img class="item__image" src="" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </section>
+        
+                <section class="contact-me__container" id="contactMeSection">
+                    <h1 class="contact-me__title">Contato</h1>
+                    <div class="contact-me__content">
+                        <div class="contact-me__box">
+                            <h6 class="contact-me__text">Envie um email para:</h6>
+                            <input class="contact-me__item" id="email" value="victorgcb@outlook.com" readonly>
+                        </div>
+
+                        <div class="contact-me__box">
+                            <h6 class="contact-me__text">Mande uma mensagem para:</h6>
+                            <input class="contact-me__item" id="cellphone" value="+55 51 983149920" readonly>
+                        </div>
+                        
+                        <div class="contact-me__box">
+                            <h6 class="contact-me__text">Acompanhe o meu LinkedIn:</h6>
+                            <input class="contact-me__item" id="linkedin" value="in/vicourtbitt" readonly>    
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </main>
+
+        <!-- <script src='./assets/scripts/slider.js'></script> -->
+        <script src="./text.js"></script>
+        <script src="./infiniteScroller.js"></script>
+        <script src="./contact.js"></script>
+        <script src='./app.js'></script>
+    </body>
+</html>

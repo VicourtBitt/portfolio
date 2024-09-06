@@ -1,0 +1,44 @@
+.contact-me__container {
+    margin-top: 80px; 
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-me__title {
+    font-size: 36px;
+    padding: 20px;
+}
+
+
+.contact-me__content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 600px;
+}
+
+.contact-me__box {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    & h6 {
+        font-size: 18px;
+        line-height: 40px;
+    }
+
+    & input {
+        cursor: pointer;
+        width: 240px;
+        height: 40px;
+        padding: 0 10px;
+        border: 1px solid #ffffff5e;
+        border-radius: 5px;
+        background: #0B0D0F;
+        color: #fff;
+    }
+}

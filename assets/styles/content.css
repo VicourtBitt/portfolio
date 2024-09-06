@@ -1,0 +1,8 @@
+.content__container {
+    grid-area: 'content';
+}
+
+.main__container {
+    width: 840px;
+    margin: 80px auto;
+}
